@@ -12,49 +12,16 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
-          {/* Project 1 */}
+        <div>
+          <h2>Rick Tac Toe </h2>
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(ricktactoe4.png) center / cover'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              My first project as a member of General Assembly's 12 week software engineering immersive. Made a Rick and Morty themee tic tac toe game. Choose from 5 popular characters each with their own avatar, on turn audio clips as well as victory/defeat audio soundbytes. Used HTML, CSS, JavaScript and jQuery.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a style={{textDecoration: "none"}} href="https://github.com/jmacmi11an/project0" target="_blank">GitHub</a></Button>
+              <Button colored><a style={{textDecoration: "none"}} href="https://jmacmi11an.github.io/project0/" target="_blank">Go to Site</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -66,15 +33,62 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>This is Angular</h1></div>
+        <div>
+        <h2>Furever</h2>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(furever2.png) center / cover'}} ></CardTitle>
+            <CardText>
+              A pet adoption website created to solve the pain point of having myriad requirements for adopting pets depending on the shelter. Using this site users can fill in the most commonly requested information about themselves including photos of their backyard, which they can share with animal shelters. Users can also create and save favorite animal lists.
+            </CardText>
+            <CardActions border>
+              <Button colored><a style={{textDecoration: "none"}} href="https://github.com/jmacmi11an/project1" target="_blank">GitHub</a></Button>
+              <Button colored><a style={{textDecoration: "none"}} href="https://furever-friend.herokuapp.com/" target="_blank">Go to Site</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is VueJS</h1></div>
+        <div>
+          <h2>Sartorial</h2>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(sartorial.png) center / cover'}} ></CardTitle>
+            <CardText>
+              Sartorial is a men's fashion website that believes elegant and timeless men's fashion can be achieved with a minimalist capsule style wardrobe. Users select from the 16 foundational clothing items they own and then can generate different outfit suggestions.
+            </CardText>
+            <CardActions border>
+              <Button colored><a style={{textDecoration: "none"}} href="https://github.com/jmacmi11an/Sartorial" target="_blank">GitHub</a></Button>
+              <Button colored><a style={{textDecoration: "none"}} href="https://sartorial-5c2a4.web.app/" target="_blank">Go to Site</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is MongoDB</h1></div>
+        <div>
+          <h2>Lattice</h2>
+          <div>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(lattice.png) center / cover'}} ></CardTitle>
+              <CardText>
+                Lattice was a pair programmed Trello clone using a React front end and Rails backend. Users can create Projects with individual Cards which have individual Tasks. An organizational project management tool.
+              </CardText>
+              <CardActions border>
+              <Button colored><a style={{textDecoration: "none"}} href="https://github.com/jmacmi11an/lattice-client" target="_blank">GitHub</a></Button>
+              <Button colored><a style={{textDecoration: "none"}} href="https://lattice-client.netlify.app/" target="_blank">Go to Site</a></Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
+          </div>
       )
     }
 
@@ -86,10 +100,10 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>RickTacToe</Tab>
+          <Tab>Furever</Tab>
+          <Tab>Sartorial</Tab>
+          <Tab>Lattice</Tab>
         </Tabs>
 
 

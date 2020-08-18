@@ -1,5 +1,6 @@
-# [YouTube Tutorial](https://www.youtube.com/playlist?list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm)
-I created a Youtube code along tutorial for this project. Click the link above to view!
+# Personal Portfolio website
+Jonathan MacMillan
+www.dinotodev.com
 
 # react-portfolio-starter
 A React based personal portfolio app using create-react-app and React Router v4.
@@ -9,9 +10,7 @@ A React based personal portfolio app using create-react-app and React Router v4.
 * React MDL material design
 * React Router v4
 
-# Start App
-Clone repo, install, cd into folder and run:
-```git
-npm install
-npm start
-```
+
+# [YouTube Tutorial](https://www.youtube.com/playlist?list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm)
+A portfolio website built with the starter template by Paul Hanna
+https://github.com/paulhanna1933/react-portfolio
