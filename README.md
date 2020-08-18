@@ -11,6 +11,6 @@ A React based personal portfolio app using create-react-app and React Router v4.
 * React Router v4
 
 
-# [YouTube Tutorial](https://www.youtube.com/playlist?list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm)
+### [YouTube Tutorial](https://www.youtube.com/playlist?list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm)
 A portfolio website built with the starter template by Paul Hanna
 https://github.com/paulhanna1933/react-portfolio
